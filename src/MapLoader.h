@@ -4,7 +4,10 @@
  *  Created on: Apr. 26, 2024
  *      Author: mikenkie
  */
-#pragma once
+
+#ifndef MAPLOADER_H_
+#define MAPLOADER_H_
+
 
 #include "Map.h"
 #include "dirent.h"
@@ -17,9 +20,6 @@
 #include <sstream>
 
 using namespace std;
-
-#ifndef MAPLOADER_H_
-#define MAPLOADER_H_
 
 class MapLoader {
 private:

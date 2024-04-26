@@ -5,6 +5,9 @@
  *      Author: mikenkie
  */
 
+#ifndef CARDS_H_
+#define CARDS_H_
+
 #include<iostream>
 #include<string>
 #include<vector>
@@ -14,9 +17,6 @@
 #include "Orders.h"
 
 using namespace std;
-
-#ifndef CARDS_H_
-#define CARDS_H_
 
 class Cards
 {

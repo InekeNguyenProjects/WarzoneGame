@@ -5,7 +5,8 @@
  *      Author: mikenkie
  */
 
-#pragma once
+#ifndef MAP_H_
+#define MAP_H_
 
 #include <map>
 #include <vector>
@@ -13,9 +14,6 @@
 #include<iostream>
 
 using namespace std;
-
-#ifndef MAP_H_
-#define MAP_H_
 
 class Territory {
 

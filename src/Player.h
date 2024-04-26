@@ -4,6 +4,9 @@
  *  Created on: Apr. 26, 2024
  *      Author: mikenkie
  */
+#pragma once
+#ifndef PLAYER_H_
+#define PLAYER_H_
 
 #include <iostream>
 #include <string>
@@ -17,18 +20,11 @@
 
 using namespace std;
 
-
-#ifndef PLAYER_H_
-#define PLAYER_H_
-
 class Card;
 class Map;
 class Strategy;
 
-
 class Player {
-
-
 private:
 
     int playerId;

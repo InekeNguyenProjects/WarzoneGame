@@ -4,20 +4,19 @@
  *  Created on: Apr. 26, 2024
  *      Author: mikenkie
  */
-
 #pragma once
+#ifndef GAMEOBSERVERS_H_
+#define GAMEOBSERVERS_H_
+
 #include <iomanip>
 #include <iostream>
 #include <list>
 
 using namespace  std;
 
-class GameEngine;
 class Observer;
+class GameEngine;
 class Observable;
-
-#ifndef GAMEOBSERVERS_H_
-#define GAMEOBSERVERS_H_
 
 // Observer
 class Observer {

@@ -4,8 +4,9 @@
  *  Created on: Apr. 26, 2024
  *      Author: mikenkie
  */
-
 #pragma once
+#ifndef PLAYERSTRATEGIES_H_
+#define PLAYERSTRATEGIES_H_
 
 #include "Map.h"
 #include "GameEngine.h"
@@ -18,9 +19,6 @@
 class Player;
 
 using namespace std;
-
-#ifndef PLAYERSTRATEGIES_H_
-#define PLAYERSTRATEGIES_H_
 
 class Strategy {
 public:
